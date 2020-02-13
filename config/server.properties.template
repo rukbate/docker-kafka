@@ -24,6 +24,8 @@ auto.leader.rebalance.enable=true
 auto.create.topics.enable={{KAFKA_AUTO_CREATE_TOPICS_ENABLE}}
 default.replication.factor={{KAFKA_DEFAULT_REPLICATION_FACTOR}}
 
+offsets.topic.replication.factor={{KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR}}
+
 # Hostname the broker will advertise to consumers. If not set, kafka will use the value returned
 # from InetAddress.getLocalHost().  If there are multiple interfaces getLocalHost
 # may not be what you want.
